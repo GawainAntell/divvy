@@ -61,9 +61,9 @@ rangeSize <- function(coords, crs = 'epsg:4326'){
     # duplicate points (multiple taxa per site) don't affect centroid
     cntr <- unlist( sf::st_centroid(ptsGrp) )
     gcdists <- sf::st_distance(sfPts) # returns units-class object
-    gcdists <- units::set_units(gcdists, 'km')
+    gcdists <- units::drop_units(units::set_units(gcdists, 'km'))
     gcMax <- max(gcdists)
-    mst <- vegan::spantree( units::drop_units(gcdists) )
+    mst <- vegan::spantree(gcdists)
     agg <- sum(mst$dist)
     diag(gcdists) <- NA
     mpd <- mean(gcdists, na.rm = TRUE)
