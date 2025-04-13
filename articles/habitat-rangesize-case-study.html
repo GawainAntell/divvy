@@ -5,30 +5,24 @@
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<meta name="description" content="divvy">
 <title>Environmental and geographic standardisation case study • divvy</title>
 <script src="../deps/jquery-3.6.0/jquery-3.6.0.min.js"></script><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<link href="../deps/bootstrap-5.2.2/bootstrap.min.css" rel="stylesheet">
-<script src="../deps/bootstrap-5.2.2/bootstrap.bundle.min.js"></script><!-- Font Awesome icons --><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css" integrity="sha256-mmgLkCYLUQbXn0B1SRqzHar6dCnv9oZFPEC1g1cwlkk=" crossorigin="anonymous">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/v4-shims.min.css" integrity="sha256-wZjR52fzng1pJHwx4aV2AO3yyTOXrcDW7jBpJtTwVxw=" crossorigin="anonymous">
-<!-- bootstrap-toc --><script src="https://cdn.jsdelivr.net/gh/afeld/bootstrap-toc@v1.0.1/dist/bootstrap-toc.min.js" integrity="sha256-4veVQbu7//Lk5TSmc7YV48MxtMy98e26cf5MrgZYnwo=" crossorigin="anonymous"></script><!-- headroom.js --><script src="https://cdnjs.cloudflare.com/ajax/libs/headroom/0.11.0/headroom.min.js" integrity="sha256-AsUX4SJE1+yuDu5+mAVzJbuYNPHj/WroHuZ8Ir/CkE0=" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/headroom/0.11.0/jQuery.headroom.min.js" integrity="sha256-ZX/yNShbjqsohH1k95liqY9Gd8uOiE1S4vZc+9KQ1K4=" crossorigin="anonymous"></script><!-- clipboard.js --><script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.6/clipboard.min.js" integrity="sha256-inc5kl9MA1hkeYUt+EC3BhlIgyp/2jDIyBLS6k3UxPI=" crossorigin="anonymous"></script><!-- search --><script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/6.4.6/fuse.js" integrity="sha512-zv6Ywkjyktsohkbp9bb45V6tEMoWhzFzXis+LrMehmJZZSys19Yxf1dopHx7WzIKxr5tK2dVcYmaCk2uqdjF4A==" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/autocomplete.js/0.38.0/autocomplete.jquery.min.js" integrity="sha512-GU9ayf+66Xx2TmpxqJpliWbT5PiGYxpaG8rfnBEk1LL8l1KGkRShhngwdXK1UgqhAzWpZHSiYPc09/NwDQIGyg==" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/mark.min.js" integrity="sha512-5CYOlHXGh6QpOFA/TeTylKLWfB3ftPsde7AnmhuitiTX4K5SqCLBeKro6sPS8ilsz1Q4NRx3v8Ko2IBiszzdww==" crossorigin="anonymous"></script><!-- pkgdown --><script src="../pkgdown.js"></script><meta property="og:title" content="Environmental and geographic standardisation case study">
-<meta property="og:description" content="divvy">
-<!-- mathjax --><script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js" integrity="sha256-nvJJv9wWKEm88qvoQl9ekL2J+k/RWIsaSScxxlsrv8k=" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/config/TeX-AMS-MML_HTMLorMML.js" integrity="sha256-84DKXVJXs0/F8OTMzX4UR909+jtl4G7SPypPavF+GfA=" crossorigin="anonymous"></script><!--[if lt IE 9]>
-<script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
-<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-<![endif]-->
+<link href="../deps/bootstrap-5.3.1/bootstrap.min.css" rel="stylesheet">
+<script src="../deps/bootstrap-5.3.1/bootstrap.bundle.min.js"></script><link href="../deps/font-awesome-6.5.2/css/all.min.css" rel="stylesheet">
+<link href="../deps/font-awesome-6.5.2/css/v4-shims.min.css" rel="stylesheet">
+<script src="../deps/headroom-0.11.0/headroom.min.js"></script><script src="../deps/headroom-0.11.0/jQuery.headroom.min.js"></script><script src="../deps/bootstrap-toc-1.0.1/bootstrap-toc.min.js"></script><script src="../deps/clipboard.js-2.0.11/clipboard.min.js"></script><script src="../deps/search-1.0.0/autocomplete.jquery.min.js"></script><script src="../deps/search-1.0.0/fuse.min.js"></script><script src="../deps/search-1.0.0/mark.min.js"></script><!-- pkgdown --><script src="../pkgdown.js"></script><meta property="og:title" content="Environmental and geographic standardisation case study">
 </head>
 <body>
     <a href="#main" class="visually-hidden-focusable">Skip to contents</a>
-    
 
-    <nav class="navbar fixed-top navbar-dark navbar-expand-lg bg-primary"><div class="container">
-    
+
+    <nav class="navbar navbar-expand-lg fixed-top bg-primary" data-bs-theme="dark" aria-label="Site navigation"><div class="container">
+
     <a class="navbar-brand me-2" href="../index.html">divvy</a>
 
     <small class="nav-text text-muted me-auto" data-bs-toggle="tooltip" data-bs-placement="bottom" title="">1.0.0.9000</small>
 
-    
+
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -36,35 +30,25 @@
     <div id="navbar" class="collapse navbar-collapse ms-3">
       <ul class="navbar-nav me-auto">
 <li class="active nav-item dropdown">
-  <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" role="button" aria-expanded="false" aria-haspopup="true" id="dropdown-getting-started">Getting started</a>
-  <div class="dropdown-menu" aria-labelledby="dropdown-getting-started">
-    <a class="dropdown-item" href="../articles/subsampling-vignette.html">Subsampling tutorial</a>
-    <a class="dropdown-item" href="../articles/habitat-rangesize-case-study.html">Range size case study</a>
-    <a class="dropdown-item" href="../articles/subsampling-concept-walkthrough.html">Conceptual walkthrough</a>
-  </div>
+  <button class="nav-link dropdown-toggle" type="button" id="dropdown-getting-started" data-bs-toggle="dropdown" aria-expanded="false" aria-haspopup="true">Getting started</button>
+  <ul class="dropdown-menu" aria-labelledby="dropdown-getting-started">
+<li><a class="dropdown-item" href="../articles/subsampling-vignette.html">Subsampling tutorial</a></li>
+    <li><a class="dropdown-item" href="../articles/habitat-rangesize-case-study.html">Range size case study</a></li>
+    <li><a class="dropdown-item" href="../articles/subsampling-concept-walkthrough.html">Conceptual walkthrough</a></li>
+  </ul>
 </li>
-<li class="nav-item">
-  <a class="nav-link" href="../reference/index.html">Reference</a>
-</li>
-<li class="nav-item">
-  <a class="nav-link" href="../news/index.html">News</a>
-</li>
+<li class="nav-item"><a class="nav-link" href="../reference/index.html">Reference</a></li>
+<li class="nav-item"><a class="nav-link" href="../news/index.html">News</a></li>
       </ul>
-<form class="form-inline my-2 my-lg-0" role="search">
-        <input type="search" class="form-control me-sm-2" aria-label="Toggle navigation" name="search-input" data-search-index="../search.json" id="search-input" placeholder="Search for" autocomplete="off">
-</form>
-
-      <ul class="navbar-nav">
-<li class="nav-item">
-  <a class="external-link nav-link" href="https://github.com/GawainAntell/divvy/" aria-label="github">
-    <span class="fab fa fab fa-github fa-lg"></span>
-     
-  </a>
-</li>
+<ul class="navbar-nav">
+<li class="nav-item"><form class="form-inline" role="search">
+ <input class="form-control" type="search" name="search-input" id="search-input" autocomplete="off" aria-label="Search site" placeholder="Search for" data-search-index="../search.json">
+</form></li>
+<li class="nav-item"><a class="external-link nav-link" href="https://github.com/GawainAntell/divvy/" aria-label="GitHub"><span class="fa fab fa-github fa-lg"></span></a></li>
       </ul>
 </div>
 
-    
+
   </div>
 </nav><div class="container template-article">
 
@@ -73,13 +57,14 @@
 
 <div class="row">
   <main id="main" class="col-md-9"><div class="page-header">
-      <img src="" class="logo" alt=""><h1>Environmental and geographic standardisation case study</h1>
+
+      <h1>Environmental and geographic standardisation case study</h1>
                         <h4 data-toc-skip class="author">G. T.
 Antell</h4>
             
             <h4 data-toc-skip class="date">24 October 2023</h4>
       
-      <small class="dont-index">Source: <a href="https://github.com/GawainAntell/divvy/blob/HEAD/vignettes/habitat-rangesize-case-study.Rmd" class="external-link"><code>vignettes/habitat-rangesize-case-study.Rmd</code></a></small>
+      <small class="dont-index">Source: <a href="https://github.com/GawainAntell/divvy/blob/main/vignettes/habitat-rangesize-case-study.Rmd" class="external-link"><code>vignettes/habitat-rangesize-case-study.Rmd</code></a></small>
       <div class="d-none name"><code>habitat-rangesize-case-study.Rmd</code></div>
     </div>
 
@@ -183,10 +168,10 @@ Silurian would differ distinctly from a cosmopolitan range today.
 Spatial subsampling is crucial to addressing the research questions
 because the preserved area and distribution of shallow and deep-water
 habitats also differ from each other.</p>
-<div class="figure">
-<img src="PALEOMAP_atlas_map75a_Llandovery_430.png" alt=""><p class="caption"><em>Silurian palaeogeography, as reconstructed by the
-PALEOMAP PaleoAtlas project <span class="citation">(Scotese
-2016)</span>.</em></p>
+<div class="float">
+<img src="PALEOMAP_atlas_map75a_Llandovery_430.png" alt="Silurian palaeogeography, as reconstructed by the PALEOMAP PaleoAtlas project (Scotese 2016)."><div class="figcaption"><em>Silurian palaeogeography, as reconstructed
+by the PALEOMAP PaleoAtlas project <span class="citation">(Scotese
+2016)</span>.</em></div>
 </div>
 </div>
 <div class="section level2">
@@ -217,8 +202,8 @@ singletons’ <em>sensu</em> <span class="citation">Antell et al.
 contribute to geographic range-size calculations.</p>
 <div class="sourceCode" id="cb2"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span><span class="va">nmFreq</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://rdrr.io/r/base/table.html" class="external-link">table</a></span><span class="op">(</span><span class="va">occSilur</span><span class="op">$</span><span class="va">genus</span><span class="op">)</span></span>
-<span><span class="va">sss</span> <span class="op">&lt;-</span> <span class="va">nmFreq</span><span class="op">[</span><span class="va">nmFreq</span> <span class="op">==</span> <span class="fl">1</span><span class="op">]</span> <span class="op">|&gt;</span> <span class="fu"><a href="https://rdrr.io/r/base/names.html" class="external-link">names</a></span><span class="op">(</span><span class="op">)</span></span>
-<span><span class="va">sssRows</span> <span class="op">&lt;-</span> <span class="va">occSilur</span><span class="op">$</span><span class="va">genus</span> <span class="op"><a href="https://rdrr.io/pkg/terra/man/match.html" class="external-link">%in%</a></span> <span class="va">sss</span></span>
+<span><span class="va">sss</span> <span class="op">&lt;-</span> <span class="va">nmFreq</span><span class="op">[</span><span class="va">nmFreq</span> <span class="op">==</span> <span class="fl">1</span><span class="op">]</span> <span class="op">|&gt;</span> <span class="fu"><a href="https://rspatial.github.io/terra/reference/names.html" class="external-link">names</a></span><span class="op">(</span><span class="op">)</span></span>
+<span><span class="va">sssRows</span> <span class="op">&lt;-</span> <span class="va">occSilur</span><span class="op">$</span><span class="va">genus</span> <span class="op"><a href="https://rspatial.github.io/terra/reference/match.html" class="external-link">%in%</a></span> <span class="va">sss</span></span>
 <span><span class="va">occSilur</span> <span class="op">&lt;-</span> <span class="va">occSilur</span><span class="op">[</span> <span class="op">!</span><span class="va">sssRows</span>, <span class="op">]</span></span>
 <span><span class="fu"><a href="https://rdrr.io/r/base/length.html" class="external-link">length</a></span><span class="op">(</span><span class="va">sss</span><span class="op">)</span></span></code></pre></div>
 <pre><code><span><span class="co">#&gt; [1] 52</span></span></code></pre>
@@ -232,26 +217,26 @@ calculations later to improve computation time substantially compared to
 operations on vector point data.</p>
 <div class="sourceCode" id="cb4"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span><span class="co"># initialise Equal Earth projected coordinates</span></span>
-<span><span class="va">rWorld</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://rdrr.io/pkg/terra/man/rast.html" class="external-link">rast</a></span><span class="op">(</span><span class="op">)</span></span>
+<span><span class="va">rWorld</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://rspatial.github.io/terra/reference/rast.html" class="external-link">rast</a></span><span class="op">(</span><span class="op">)</span></span>
 <span><span class="va">prj</span> <span class="op">&lt;-</span> <span class="st">'EPSG:8857'</span></span>
-<span><span class="va">rPrj</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://rdrr.io/pkg/terra/man/project.html" class="external-link">project</a></span><span class="op">(</span><span class="va">rWorld</span>, <span class="va">prj</span>, res <span class="op">=</span> <span class="fl">200000</span><span class="op">)</span> <span class="co"># 200,000m is approximately 2 degrees</span></span>
-<span><span class="fu"><a href="https://rdrr.io/pkg/terra/man/values.html" class="external-link">values</a></span><span class="op">(</span><span class="va">rPrj</span><span class="op">)</span> <span class="op">&lt;-</span> <span class="fl">1</span><span class="op">:</span><span class="fu"><a href="https://rdrr.io/pkg/terra/man/dimensions.html" class="external-link">ncell</a></span><span class="op">(</span><span class="va">rPrj</span><span class="op">)</span></span>
+<span><span class="va">rPrj</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://rspatial.github.io/terra/reference/project.html" class="external-link">project</a></span><span class="op">(</span><span class="va">rWorld</span>, <span class="va">prj</span>, res <span class="op">=</span> <span class="fl">200000</span><span class="op">)</span> <span class="co"># 200,000m is approximately 2 degrees</span></span>
+<span><span class="fu"><a href="https://rspatial.github.io/terra/reference/values.html" class="external-link">values</a></span><span class="op">(</span><span class="va">rPrj</span><span class="op">)</span> <span class="op">&lt;-</span> <span class="fl">1</span><span class="op">:</span><span class="fu"><a href="https://rspatial.github.io/terra/reference/dimensions.html" class="external-link">ncell</a></span><span class="op">(</span><span class="va">rPrj</span><span class="op">)</span></span>
 <span></span>
 <span><span class="co"># coordinate column names for the current and target coordinate reference system</span></span>
 <span><span class="va">xyCartes</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://rdrr.io/r/base/c.html" class="external-link">c</a></span><span class="op">(</span><span class="st">'paleolng'</span>,<span class="st">'paleolat'</span><span class="op">)</span></span>
 <span><span class="va">xyCell</span>   <span class="op">&lt;-</span> <span class="fu"><a href="https://rdrr.io/r/base/c.html" class="external-link">c</a></span><span class="op">(</span><span class="st">'cellX'</span>,<span class="st">'cellY'</span><span class="op">)</span></span>
 <span></span>
 <span><span class="co"># collection data</span></span>
-<span><span class="va">llColl</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://rdrr.io/pkg/terra/man/vect.html" class="external-link">vect</a></span><span class="op">(</span><span class="va">collSilur</span>, geom <span class="op">=</span> <span class="va">xyCartes</span>, crs <span class="op">=</span> <span class="st">'epsg:4326'</span><span class="op">)</span></span>
-<span><span class="va">prjColl</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://rdrr.io/pkg/terra/man/project.html" class="external-link">project</a></span><span class="op">(</span><span class="va">llColl</span>, <span class="va">prj</span><span class="op">)</span></span>
-<span><span class="va">collSilur</span><span class="op">$</span><span class="va">cell</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://rdrr.io/pkg/terra/man/cells.html" class="external-link">cells</a></span><span class="op">(</span><span class="va">rPrj</span>, <span class="va">prjColl</span><span class="op">)</span><span class="op">[</span>,<span class="st">'cell'</span><span class="op">]</span></span>
-<span><span class="va">collSilur</span><span class="op">[</span>, <span class="va">xyCell</span><span class="op">]</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://rdrr.io/pkg/terra/man/xyCellFrom.html" class="external-link">xyFromCell</a></span><span class="op">(</span><span class="va">rPrj</span>, <span class="va">collSilur</span><span class="op">$</span><span class="va">cell</span><span class="op">)</span></span>
+<span><span class="va">llColl</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://rspatial.github.io/terra/reference/vect.html" class="external-link">vect</a></span><span class="op">(</span><span class="va">collSilur</span>, geom <span class="op">=</span> <span class="va">xyCartes</span>, crs <span class="op">=</span> <span class="st">'epsg:4326'</span><span class="op">)</span></span>
+<span><span class="va">prjColl</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://rspatial.github.io/terra/reference/project.html" class="external-link">project</a></span><span class="op">(</span><span class="va">llColl</span>, <span class="va">prj</span><span class="op">)</span></span>
+<span><span class="va">collSilur</span><span class="op">$</span><span class="va">cell</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://rspatial.github.io/terra/reference/cells.html" class="external-link">cells</a></span><span class="op">(</span><span class="va">rPrj</span>, <span class="va">prjColl</span><span class="op">)</span><span class="op">[</span>,<span class="st">'cell'</span><span class="op">]</span></span>
+<span><span class="va">collSilur</span><span class="op">[</span>, <span class="va">xyCell</span><span class="op">]</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://rspatial.github.io/terra/reference/xyCellFrom.html" class="external-link">xyFromCell</a></span><span class="op">(</span><span class="va">rPrj</span>, <span class="va">collSilur</span><span class="op">$</span><span class="va">cell</span><span class="op">)</span></span>
 <span></span>
 <span><span class="co"># taxon occurrences</span></span>
-<span><span class="va">llOccs</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://rdrr.io/pkg/terra/man/vect.html" class="external-link">vect</a></span><span class="op">(</span><span class="va">occSilur</span>, geom <span class="op">=</span> <span class="va">xyCartes</span>, crs <span class="op">=</span> <span class="st">'epsg:4326'</span><span class="op">)</span></span>
-<span><span class="va">prjOccs</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://rdrr.io/pkg/terra/man/project.html" class="external-link">project</a></span><span class="op">(</span><span class="va">llOccs</span>, <span class="va">prj</span><span class="op">)</span></span>
-<span><span class="va">occSilur</span><span class="op">$</span><span class="va">cell</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://rdrr.io/pkg/terra/man/cells.html" class="external-link">cells</a></span><span class="op">(</span><span class="va">rPrj</span>, <span class="va">prjOccs</span><span class="op">)</span><span class="op">[</span>,<span class="st">'cell'</span><span class="op">]</span></span>
-<span><span class="va">occSilur</span><span class="op">[</span>, <span class="va">xyCell</span><span class="op">]</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://rdrr.io/pkg/terra/man/xyCellFrom.html" class="external-link">xyFromCell</a></span><span class="op">(</span><span class="va">rPrj</span>, <span class="va">occSilur</span><span class="op">$</span><span class="va">cell</span><span class="op">)</span></span></code></pre></div>
+<span><span class="va">llOccs</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://rspatial.github.io/terra/reference/vect.html" class="external-link">vect</a></span><span class="op">(</span><span class="va">occSilur</span>, geom <span class="op">=</span> <span class="va">xyCartes</span>, crs <span class="op">=</span> <span class="st">'epsg:4326'</span><span class="op">)</span></span>
+<span><span class="va">prjOccs</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://rspatial.github.io/terra/reference/project.html" class="external-link">project</a></span><span class="op">(</span><span class="va">llOccs</span>, <span class="va">prj</span><span class="op">)</span></span>
+<span><span class="va">occSilur</span><span class="op">$</span><span class="va">cell</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://rspatial.github.io/terra/reference/cells.html" class="external-link">cells</a></span><span class="op">(</span><span class="va">rPrj</span>, <span class="va">prjOccs</span><span class="op">)</span><span class="op">[</span>,<span class="st">'cell'</span><span class="op">]</span></span>
+<span><span class="va">occSilur</span><span class="op">[</span>, <span class="va">xyCell</span><span class="op">]</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://rspatial.github.io/terra/reference/xyCellFrom.html" class="external-link">xyFromCell</a></span><span class="op">(</span><span class="va">rPrj</span>, <span class="va">occSilur</span><span class="op">$</span><span class="va">cell</span><span class="op">)</span></span></code></pre></div>
 </div>
 <div class="section level2">
 <h2 id="categorise-environment-associated-with-occurrences">Categorise environment associated with occurrences<a class="anchor" aria-label="anchor" href="#categorise-environment-associated-with-occurrences"></a>
@@ -301,11 +286,11 @@ extent, and coordinate reference system as applied above to the
 occurrence data. <a id="raster_map"></a></p>
 <div class="sourceCode" id="cb6"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span><span class="va">collSilur</span><span class="op">$</span><span class="va">bath</span> <span class="op">&lt;-</span> <span class="cn">NA</span></span>
-<span><span class="va">collSilur</span><span class="op">$</span><span class="va">bath</span><span class="op">[</span><span class="va">collSilur</span><span class="op">$</span><span class="va">environment</span> <span class="op"><a href="https://rdrr.io/pkg/terra/man/match.html" class="external-link">%in%</a></span> <span class="va">proxTerms</span><span class="op">]</span> <span class="op">&lt;-</span> <span class="st">'prox'</span></span>
-<span><span class="va">collSilur</span><span class="op">$</span><span class="va">bath</span><span class="op">[</span><span class="va">collSilur</span><span class="op">$</span><span class="va">environment</span> <span class="op"><a href="https://rdrr.io/pkg/terra/man/match.html" class="external-link">%in%</a></span> <span class="va">deepTerms</span><span class="op">]</span> <span class="op">&lt;-</span> <span class="st">'deep'</span></span>
+<span><span class="va">collSilur</span><span class="op">$</span><span class="va">bath</span><span class="op">[</span><span class="va">collSilur</span><span class="op">$</span><span class="va">environment</span> <span class="op"><a href="https://rspatial.github.io/terra/reference/match.html" class="external-link">%in%</a></span> <span class="va">proxTerms</span><span class="op">]</span> <span class="op">&lt;-</span> <span class="st">'prox'</span></span>
+<span><span class="va">collSilur</span><span class="op">$</span><span class="va">bath</span><span class="op">[</span><span class="va">collSilur</span><span class="op">$</span><span class="va">environment</span> <span class="op"><a href="https://rspatial.github.io/terra/reference/match.html" class="external-link">%in%</a></span> <span class="va">deepTerms</span><span class="op">]</span> <span class="op">&lt;-</span> <span class="st">'deep'</span></span>
 <span><span class="va">bathRast</span> <span class="op">&lt;-</span> <span class="fu"><a href="../reference/classRast.html">classRast</a></span><span class="op">(</span><span class="va">rPrj</span>, dat <span class="op">=</span> <span class="va">collSilur</span>, cutoff <span class="op">=</span> <span class="fl">0.8</span>,</span>
 <span>                      xy <span class="op">=</span> <span class="va">xyCell</span>, env <span class="op">=</span> <span class="st">'bath'</span><span class="op">)</span></span>
-<span><span class="fu"><a href="https://rdrr.io/pkg/terra/man/plot.html" class="external-link">plot</a></span><span class="op">(</span><span class="va">bathRast</span>, col <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/r/base/c.html" class="external-link">c</a></span><span class="op">(</span><span class="st">"#1B9E77"</span>, <span class="st">"#D95F02"</span>, <span class="st">"black"</span><span class="op">)</span><span class="op">)</span></span></code></pre></div>
+<span><span class="fu"><a href="https://rspatial.github.io/terra/reference/plot.html" class="external-link">plot</a></span><span class="op">(</span><span class="va">bathRast</span>, col <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/r/base/c.html" class="external-link">c</a></span><span class="op">(</span><span class="st">"#1B9E77"</span>, <span class="st">"#D95F02"</span>, <span class="st">"black"</span><span class="op">)</span><span class="op">)</span></span></code></pre></div>
 <div class="figure" style="text-align: center">
 <img src="classify-collections-enviro-1.png" alt="World map where a mix of grid cells labelled deep, shallow, and indeterminate are scattered around the outline of Gondwanaland and Laurasia. Most of the points fall close to the coastlines and are concentrated around Laurasia." width="650" height="325"><p class="caption">
 <em>Predominant environment recorded in PBDB collections</em>
@@ -324,11 +309,11 @@ environment directly associated with occurrences, and otherwise will be
 inferences from the collections-based raster.</p>
 <div class="sourceCode" id="cb7"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span><span class="co"># create a new 'bathCell' column to note the collections-inferred environment</span></span>
-<span><span class="va">occSilur</span><span class="op">$</span><span class="va">bathCell</span> <span class="op">&lt;-</span> <span class="va">occSilur</span><span class="op">$</span><span class="va">bath</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://rdrr.io/pkg/terra/man/extract.html" class="external-link">extract</a></span><span class="op">(</span><span class="va">bathRast</span>, <span class="va">prjOccs</span><span class="op">)</span><span class="op">[[</span><span class="st">'mainClass'</span><span class="op">]</span><span class="op">]</span></span>
+<span><span class="va">occSilur</span><span class="op">$</span><span class="va">bathCell</span> <span class="op">&lt;-</span> <span class="va">occSilur</span><span class="op">$</span><span class="va">bath</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://rspatial.github.io/terra/reference/extract.html" class="external-link">extract</a></span><span class="op">(</span><span class="va">bathRast</span>, <span class="va">prjOccs</span><span class="op">)</span><span class="op">[[</span><span class="st">'mainClass'</span><span class="op">]</span><span class="op">]</span></span>
 <span></span>
 <span><span class="co"># refine the enviro where possible based on observations directly linked to occs</span></span>
-<span><span class="va">occSilur</span><span class="op">$</span><span class="va">bath</span><span class="op">[</span><span class="va">occSilur</span><span class="op">$</span><span class="va">environment</span> <span class="op"><a href="https://rdrr.io/pkg/terra/man/match.html" class="external-link">%in%</a></span> <span class="va">proxTerms</span><span class="op">]</span> <span class="op">&lt;-</span> <span class="st">'prox'</span></span>
-<span><span class="va">occSilur</span><span class="op">$</span><span class="va">bath</span><span class="op">[</span><span class="va">occSilur</span><span class="op">$</span><span class="va">environment</span> <span class="op"><a href="https://rdrr.io/pkg/terra/man/match.html" class="external-link">%in%</a></span> <span class="va">deepTerms</span><span class="op">]</span> <span class="op">&lt;-</span> <span class="st">'deep'</span></span></code></pre></div>
+<span><span class="va">occSilur</span><span class="op">$</span><span class="va">bath</span><span class="op">[</span><span class="va">occSilur</span><span class="op">$</span><span class="va">environment</span> <span class="op"><a href="https://rspatial.github.io/terra/reference/match.html" class="external-link">%in%</a></span> <span class="va">proxTerms</span><span class="op">]</span> <span class="op">&lt;-</span> <span class="st">'prox'</span></span>
+<span><span class="va">occSilur</span><span class="op">$</span><span class="va">bath</span><span class="op">[</span><span class="va">occSilur</span><span class="op">$</span><span class="va">environment</span> <span class="op"><a href="https://rspatial.github.io/terra/reference/match.html" class="external-link">%in%</a></span> <span class="va">deepTerms</span><span class="op">]</span> <span class="op">&lt;-</span> <span class="st">'deep'</span></span></code></pre></div>
 <p>A quick inspection reveals roughly equal numbers of occurrences in
 each environment. However, there are half again as many shallow as
 deep-water grid cells as indicated by all marine collections—a result
@@ -343,7 +328,7 @@ to sampling or also to ecology.</p>
 <span><span class="co">#&gt;   deep   prox indet. </span></span>
 <span><span class="co">#&gt;   4966   4124   2035</span></span></code></pre>
 <div class="sourceCode" id="cb10"><pre class="downlit sourceCode r">
-<code class="sourceCode R"><span><span class="fu"><a href="https://rdrr.io/pkg/terra/man/freq.html" class="external-link">freq</a></span><span class="op">(</span><span class="va">bathRast</span>, bylayer <span class="op">=</span> <span class="cn">FALSE</span><span class="op">)</span></span></code></pre></div>
+<code class="sourceCode R"><span><span class="fu"><a href="https://rspatial.github.io/terra/reference/freq.html" class="external-link">freq</a></span><span class="op">(</span><span class="va">bathRast</span>, bylayer <span class="op">=</span> <span class="cn">FALSE</span><span class="op">)</span></span></code></pre></div>
 <pre><code><span><span class="co">#&gt;    value count</span></span>
 <span><span class="co">#&gt; 1   deep   141</span></span>
 <span><span class="co">#&gt; 2   prox   226</span></span>
@@ -357,7 +342,7 @@ contained specific environment terms.</p>
 <code class="sourceCode R"><span><span class="co"># what proportion of environments associated with individual records</span></span>
 <span><span class="co"># match environmental inferences from nearby collections' data?</span></span>
 <span><span class="fu"><a href="https://rdrr.io/r/base/which.html" class="external-link">which</a></span><span class="op">(</span><span class="va">occSilur</span><span class="op">$</span><span class="va">bath</span> <span class="op">==</span> <span class="va">occSilur</span><span class="op">$</span><span class="va">bathCell</span><span class="op">)</span> <span class="op">|&gt;</span></span>
-<span>  <span class="fu"><a href="https://rdrr.io/r/base/length.html" class="external-link">length</a></span><span class="op">(</span><span class="op">)</span><span class="op">/</span><span class="fu"><a href="https://rdrr.io/pkg/terra/man/dimensions.html" class="external-link">nrow</a></span><span class="op">(</span><span class="va">occSilur</span><span class="op">)</span></span></code></pre></div>
+<span>  <span class="fu"><a href="https://rdrr.io/r/base/length.html" class="external-link">length</a></span><span class="op">(</span><span class="op">)</span><span class="op">/</span><span class="fu"><a href="https://rspatial.github.io/terra/reference/dimensions.html" class="external-link">nrow</a></span><span class="op">(</span><span class="va">occSilur</span><span class="op">)</span></span></code></pre></div>
 <pre><code><span><span class="co">#&gt; [1] 0.6516729</span></span></code></pre>
 <div class="sourceCode" id="cb14"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span><span class="co"># compare number of indeterminate enviro from collections vs above from records</span></span>
@@ -382,17 +367,17 @@ habitat type.</p>
 <span>  <span class="kw">if</span> <span class="op">(</span><span class="fu"><a href="https://rdrr.io/r/base/sum.html" class="external-link">sum</a></span><span class="op">(</span><span class="va">envTbl</span><span class="op">[</span><span class="fl">1</span><span class="op">:</span><span class="fl">2</span><span class="op">]</span><span class="op">)</span><span class="op">==</span><span class="fl">0</span><span class="op">)</span> <span class="op">{</span> <span class="st">'unk'</span> <span class="op">}</span> <span class="kw">else</span> <span class="op">{</span></span>
 <span>    <span class="va">envTbl</span> <span class="op">&lt;-</span> <span class="va">envTbl</span><span class="op">[</span><span class="fl">1</span><span class="op">:</span><span class="fl">2</span><span class="op">]</span> <span class="op">/</span> <span class="fu"><a href="https://rdrr.io/r/base/sum.html" class="external-link">sum</a></span><span class="op">(</span><span class="va">envTbl</span><span class="op">[</span><span class="fl">1</span><span class="op">:</span><span class="fl">2</span><span class="op">]</span><span class="op">)</span> <span class="co"># proportional enviro abundance</span></span>
 <span>    <span class="kw">if</span> <span class="op">(</span><span class="fu"><a href="https://rdrr.io/r/base/any.html" class="external-link">any</a></span><span class="op">(</span><span class="va">envTbl</span><span class="op">[</span><span class="fl">1</span><span class="op">:</span><span class="fl">2</span><span class="op">]</span> <span class="op">&gt;</span> <span class="va">cutoff</span><span class="op">)</span><span class="op">)</span> <span class="op">{</span> <span class="co"># check if either envrio is predominant</span></span>
-<span>      <span class="fu"><a href="https://rdrr.io/r/base/ifelse.html" class="external-link">ifelse</a></span><span class="op">(</span><span class="va">envTbl</span><span class="op">[[</span><span class="fl">1</span><span class="op">]</span><span class="op">]</span> <span class="op">&gt;</span> <span class="va">cutoff</span>, <span class="fu"><a href="https://rdrr.io/r/base/names.html" class="external-link">names</a></span><span class="op">(</span><span class="va">envTbl</span><span class="op">)</span><span class="op">[</span><span class="fl">1</span><span class="op">]</span>, <span class="fu"><a href="https://rdrr.io/r/base/names.html" class="external-link">names</a></span><span class="op">(</span><span class="va">envTbl</span><span class="op">)</span><span class="op">[</span><span class="fl">2</span><span class="op">]</span><span class="op">)</span></span>
+<span>      <span class="fu"><a href="https://rdrr.io/r/base/ifelse.html" class="external-link">ifelse</a></span><span class="op">(</span><span class="va">envTbl</span><span class="op">[[</span><span class="fl">1</span><span class="op">]</span><span class="op">]</span> <span class="op">&gt;</span> <span class="va">cutoff</span>, <span class="fu"><a href="https://rspatial.github.io/terra/reference/names.html" class="external-link">names</a></span><span class="op">(</span><span class="va">envTbl</span><span class="op">)</span><span class="op">[</span><span class="fl">1</span><span class="op">]</span>, <span class="fu"><a href="https://rspatial.github.io/terra/reference/names.html" class="external-link">names</a></span><span class="op">(</span><span class="va">envTbl</span><span class="op">)</span><span class="op">[</span><span class="fl">2</span><span class="op">]</span><span class="op">)</span></span>
 <span>    <span class="op">}</span> <span class="kw">else</span> <span class="op">{</span> <span class="st">'both'</span> <span class="op">}</span></span>
 <span>  <span class="op">}</span></span>
 <span><span class="op">}</span></span>
 <span><span class="co"># The bathymetry column of occurrences is an ordered factor, so levels</span></span>
 <span><span class="co"># 1 and 2 subset by the function correspond to the two environment types</span></span>
-<span><span class="fu"><a href="https://rdrr.io/pkg/terra/man/factors.html" class="external-link">levels</a></span><span class="op">(</span><span class="va">occSilur</span><span class="op">$</span><span class="va">bath</span><span class="op">)</span></span></code></pre></div>
+<span><span class="fu"><a href="https://rspatial.github.io/terra/reference/factors.html" class="external-link">levels</a></span><span class="op">(</span><span class="va">occSilur</span><span class="op">$</span><span class="va">bath</span><span class="op">)</span></span></code></pre></div>
 <pre><code><span><span class="co">#&gt; [1] "deep"   "prox"   "indet."</span></span></code></pre>
 <div class="sourceCode" id="cb18"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span><span class="co"># tag each row as from a taxon with deep, proximal, or eurytopic preference</span></span>
-<span><span class="va">taxa</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://rdrr.io/pkg/terra/man/unique.html" class="external-link">unique</a></span><span class="op">(</span><span class="va">occSilur</span><span class="op">$</span><span class="va">genus</span><span class="op">)</span></span>
+<span><span class="va">taxa</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://rspatial.github.io/terra/reference/unique.html" class="external-link">unique</a></span><span class="op">(</span><span class="va">occSilur</span><span class="op">$</span><span class="va">genus</span><span class="op">)</span></span>
 <span><span class="va">occSilur</span><span class="op">$</span><span class="va">pref</span> <span class="op">&lt;-</span> <span class="cn">NA</span></span>
 <span><span class="va">cutoff</span> <span class="op">&lt;-</span> <span class="fl">0.7</span></span>
 <span><span class="kw">for</span> <span class="op">(</span><span class="va">tax</span> <span class="kw">in</span> <span class="va">taxa</span><span class="op">)</span><span class="op">{</span></span>
@@ -420,9 +405,9 @@ subsampling across that structure’s indices.</p>
 <span><span class="co"># for smaller memory use and faster calculations below</span></span>
 <span></span>
 <span><span class="co"># how many taxa specialise in each?</span></span>
-<span><span class="va">taxaD</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://rdrr.io/pkg/terra/man/unique.html" class="external-link">unique</a></span><span class="op">(</span><span class="va">deep</span><span class="op">$</span><span class="va">genus</span><span class="op">)</span></span>
-<span><span class="va">taxaP</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://rdrr.io/pkg/terra/man/unique.html" class="external-link">unique</a></span><span class="op">(</span><span class="va">prox</span><span class="op">$</span><span class="va">genus</span><span class="op">)</span></span>
-<span><span class="va">taxaE</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://rdrr.io/pkg/terra/man/unique.html" class="external-link">unique</a></span><span class="op">(</span><span class="va">eury</span><span class="op">$</span><span class="va">genus</span><span class="op">)</span></span>
+<span><span class="va">taxaD</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://rspatial.github.io/terra/reference/unique.html" class="external-link">unique</a></span><span class="op">(</span><span class="va">deep</span><span class="op">$</span><span class="va">genus</span><span class="op">)</span></span>
+<span><span class="va">taxaP</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://rspatial.github.io/terra/reference/unique.html" class="external-link">unique</a></span><span class="op">(</span><span class="va">prox</span><span class="op">$</span><span class="va">genus</span><span class="op">)</span></span>
+<span><span class="va">taxaE</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://rspatial.github.io/terra/reference/unique.html" class="external-link">unique</a></span><span class="op">(</span><span class="va">eury</span><span class="op">$</span><span class="va">genus</span><span class="op">)</span></span>
 <span><span class="fu"><a href="https://rdrr.io/r/base/paste.html" class="external-link">paste</a></span><span class="op">(</span><span class="fu"><a href="https://rdrr.io/r/base/length.html" class="external-link">length</a></span><span class="op">(</span><span class="va">taxaD</span><span class="op">)</span>, <span class="st">'deep;'</span>, <span class="fu"><a href="https://rdrr.io/r/base/length.html" class="external-link">length</a></span><span class="op">(</span><span class="va">taxaP</span><span class="op">)</span>, <span class="st">'shallow;'</span>, <span class="fu"><a href="https://rdrr.io/r/base/length.html" class="external-link">length</a></span><span class="op">(</span><span class="va">taxaE</span><span class="op">)</span>, <span class="st">'both'</span><span class="op">)</span></span></code></pre></div>
 <pre><code><span><span class="co">#&gt; [1] "94 deep; 61 shallow; 100 both"</span></span></code></pre>
 <p>The 70% threshold used to define taxon affinities leads to
@@ -545,7 +530,7 @@ conservative comparison, one could instead omit deep and eurytopic
 samples with largest values of SCOR.</p>
 <div class="sourceCode" id="cb33"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span><span class="co"># make sample size (of subsamples) equal, by removing ones with largest SCOR</span></span>
-<span><span class="va">lowestN</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://rdrr.io/r/base/Extremes.html" class="external-link">min</a></span><span class="op">(</span><span class="fu"><a href="https://rdrr.io/pkg/terra/man/dimensions.html" class="external-link">nrow</a></span><span class="op">(</span><span class="va">metaD</span><span class="op">)</span>, <span class="fu"><a href="https://rdrr.io/pkg/terra/man/dimensions.html" class="external-link">nrow</a></span><span class="op">(</span><span class="va">metaP</span><span class="op">)</span>, <span class="fu"><a href="https://rdrr.io/pkg/terra/man/dimensions.html" class="external-link">nrow</a></span><span class="op">(</span><span class="va">metaE</span><span class="op">)</span><span class="op">)</span></span>
+<span><span class="va">lowestN</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://rdrr.io/r/base/Extremes.html" class="external-link">min</a></span><span class="op">(</span><span class="fu"><a href="https://rspatial.github.io/terra/reference/dimensions.html" class="external-link">nrow</a></span><span class="op">(</span><span class="va">metaD</span><span class="op">)</span>, <span class="fu"><a href="https://rspatial.github.io/terra/reference/dimensions.html" class="external-link">nrow</a></span><span class="op">(</span><span class="va">metaP</span><span class="op">)</span>, <span class="fu"><a href="https://rspatial.github.io/terra/reference/dimensions.html" class="external-link">nrow</a></span><span class="op">(</span><span class="va">metaE</span><span class="op">)</span><span class="op">)</span></span>
 <span><span class="va">sortD</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://rdrr.io/r/base/order.html" class="external-link">order</a></span><span class="op">(</span><span class="va">metaD</span><span class="op">$</span><span class="va">SCOR</span>, decreasing <span class="op">=</span> <span class="cn">FALSE</span><span class="op">)</span></span>
 <span><span class="va">metaD</span> <span class="op">&lt;-</span> <span class="va">metaD</span><span class="op">[</span><span class="va">sortD</span>, <span class="op">]</span></span>
 <span><span class="va">metaD</span> <span class="op">&lt;-</span> <span class="va">metaD</span><span class="op">[</span><span class="fl">1</span><span class="op">:</span><span class="va">lowestN</span>, <span class="op">]</span></span>
@@ -565,7 +550,7 @@ values from one group are to exceed those of another.</p>
 <code class="sourceCode R"><span><span class="co"># how often does the value in group 1 exceed that in group 2 paired samples?</span></span>
 <span><span class="co"># randomly shuffle subsample ordering before comparing</span></span>
 <span><span class="va">testDiff</span> <span class="op">&lt;-</span> <span class="kw">function</span><span class="op">(</span><span class="va">dat1</span>, <span class="va">dat2</span>, <span class="va">vTest</span><span class="op">)</span><span class="op">{</span></span>
-<span>  <span class="va">n</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://rdrr.io/pkg/terra/man/dimensions.html" class="external-link">nrow</a></span><span class="op">(</span><span class="va">dat1</span><span class="op">)</span></span>
+<span>  <span class="va">n</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://rspatial.github.io/terra/reference/dimensions.html" class="external-link">nrow</a></span><span class="op">(</span><span class="va">dat1</span><span class="op">)</span></span>
 <span>  <span class="va">dat1</span> <span class="op">&lt;-</span> <span class="va">dat1</span><span class="op">[</span> <span class="fu"><a href="https://rdrr.io/r/base/sample.html" class="external-link">sample</a></span><span class="op">(</span><span class="fl">1</span><span class="op">:</span><span class="va">n</span><span class="op">)</span>, <span class="op">]</span></span>
 <span>  <span class="va">dat2</span> <span class="op">&lt;-</span> <span class="va">dat2</span><span class="op">[</span> <span class="fu"><a href="https://rdrr.io/r/base/sample.html" class="external-link">sample</a></span><span class="op">(</span><span class="fl">1</span><span class="op">:</span><span class="va">n</span><span class="op">)</span>, <span class="op">]</span></span>
 <span>  <span class="va">h1obs</span> <span class="op">&lt;-</span> <span class="va">dat1</span><span class="op">[</span>, <span class="va">vTest</span><span class="op">]</span> <span class="op">&gt;</span> <span class="va">dat2</span><span class="op">[</span>, <span class="va">vTest</span><span class="op">]</span></span>
@@ -575,10 +560,10 @@ values from one group are to exceed those of another.</p>
 <span><span class="co"># repeat the comparison many times to generate a 95% confidence interval</span></span>
 <span><span class="va">diffDist</span> <span class="op">&lt;-</span> <span class="kw">function</span><span class="op">(</span><span class="va">dat1</span>, <span class="va">dat2</span>, <span class="va">vTest</span>, <span class="va">nReps</span><span class="op">)</span><span class="op">{</span></span>
 <span>  <span class="va">testStatDist</span> <span class="op">&lt;-</span> <span class="fu">testDiff</span><span class="op">(</span><span class="va">dat1</span>, <span class="va">dat2</span>, <span class="va">vTest</span><span class="op">)</span> <span class="op">|&gt;</span> <span class="fu"><a href="https://rdrr.io/r/base/lapply.html" class="external-link">replicate</a></span><span class="op">(</span>n <span class="op">=</span> <span class="va">nReps</span><span class="op">)</span></span>
-<span>  <span class="va">avg</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://rdrr.io/pkg/terra/man/summarize-generics.html" class="external-link">mean</a></span><span class="op">(</span><span class="va">testStatDist</span><span class="op">)</span></span>
+<span>  <span class="va">avg</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://rspatial.github.io/terra/reference/summarize-generics.html" class="external-link">mean</a></span><span class="op">(</span><span class="va">testStatDist</span><span class="op">)</span></span>
 <span>  <span class="va">ci95</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://rdrr.io/r/base/c.html" class="external-link">c</a></span><span class="op">(</span><span class="fl">0.025</span>, <span class="fl">0.975</span><span class="op">)</span></span>
-<span>  <span class="va">null95</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://rdrr.io/pkg/terra/man/quantile.html" class="external-link">quantile</a></span><span class="op">(</span><span class="va">testStatDist</span>, <span class="va">ci95</span><span class="op">)</span></span>
-<span>  <span class="fu"><a href="https://rdrr.io/r/base/names.html" class="external-link">names</a></span><span class="op">(</span><span class="va">null95</span><span class="op">)</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://rdrr.io/r/base/c.html" class="external-link">c</a></span><span class="op">(</span><span class="st">'lwrCI'</span>, <span class="st">'uprCI'</span><span class="op">)</span></span>
+<span>  <span class="va">null95</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://rspatial.github.io/terra/reference/quantile.html" class="external-link">quantile</a></span><span class="op">(</span><span class="va">testStatDist</span>, <span class="va">ci95</span><span class="op">)</span></span>
+<span>  <span class="fu"><a href="https://rspatial.github.io/terra/reference/names.html" class="external-link">names</a></span><span class="op">(</span><span class="va">null95</span><span class="op">)</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://rdrr.io/r/base/c.html" class="external-link">c</a></span><span class="op">(</span><span class="st">'lwrCI'</span>, <span class="st">'uprCI'</span><span class="op">)</span></span>
 <span>  <span class="fu"><a href="https://rdrr.io/r/base/c.html" class="external-link">c</a></span><span class="op">(</span><span class="va">null95</span>, <span class="st">'mean'</span> <span class="op">=</span> <span class="va">avg</span><span class="op">)</span></span>
 <span><span class="op">}</span></span></code></pre></div>
 <p>When we apply the boostrapping test, the results indicate a random
@@ -613,15 +598,15 @@ that because these results are derived from spatially standardised data,
 these numbers account for the fact that eurytopic taxa as defined here
 had many more cells of suitable habitat available to occupy.</p>
 <div class="sourceCode" id="cb41"><pre class="downlit sourceCode r">
-<code class="sourceCode R"><span><span class="fu"><a href="https://rdrr.io/pkg/terra/man/summary.html" class="external-link">summary</a></span><span class="op">(</span><span class="va">metaD</span><span class="op">$</span><span class="va">SCOR</span><span class="op">)</span></span></code></pre></div>
+<code class="sourceCode R"><span><span class="fu"><a href="https://rspatial.github.io/terra/reference/summary.html" class="external-link">summary</a></span><span class="op">(</span><span class="va">metaD</span><span class="op">$</span><span class="va">SCOR</span><span class="op">)</span></span></code></pre></div>
 <pre><code><span><span class="co">#&gt;    Min. 1st Qu.  Median    Mean 3rd Qu.    Max. </span></span>
 <span><span class="co">#&gt;   2.183   3.174   3.689   3.700   4.153   5.878</span></span></code></pre>
 <div class="sourceCode" id="cb43"><pre class="downlit sourceCode r">
-<code class="sourceCode R"><span><span class="fu"><a href="https://rdrr.io/pkg/terra/man/summary.html" class="external-link">summary</a></span><span class="op">(</span><span class="va">metaP</span><span class="op">$</span><span class="va">SCOR</span><span class="op">)</span></span></code></pre></div>
+<code class="sourceCode R"><span><span class="fu"><a href="https://rspatial.github.io/terra/reference/summary.html" class="external-link">summary</a></span><span class="op">(</span><span class="va">metaP</span><span class="op">$</span><span class="va">SCOR</span><span class="op">)</span></span></code></pre></div>
 <pre><code><span><span class="co">#&gt;    Min. 1st Qu.  Median    Mean 3rd Qu.    Max. </span></span>
 <span><span class="co">#&gt;   1.090   2.028   3.297   3.135   3.942   5.550</span></span></code></pre>
 <div class="sourceCode" id="cb45"><pre class="downlit sourceCode r">
-<code class="sourceCode R"><span><span class="fu"><a href="https://rdrr.io/pkg/terra/man/summary.html" class="external-link">summary</a></span><span class="op">(</span><span class="va">metaE</span><span class="op">$</span><span class="va">SCOR</span><span class="op">)</span></span></code></pre></div>
+<code class="sourceCode R"><span><span class="fu"><a href="https://rspatial.github.io/terra/reference/summary.html" class="external-link">summary</a></span><span class="op">(</span><span class="va">metaE</span><span class="op">$</span><span class="va">SCOR</span><span class="op">)</span></span></code></pre></div>
 <pre><code><span><span class="co">#&gt;    Min. 1st Qu.  Median    Mean 3rd Qu.    Max. </span></span>
 <span><span class="co">#&gt;   3.383   9.796  15.042  14.959  19.822  28.715</span></span></code></pre>
 <div class="section level3">
@@ -633,15 +618,15 @@ comparison with the average SCOR values listed above, the following code
 uses the <code><a href="../reference/sdSumry.html">sdSumry()</a></code> function again, this time on the
 non-standardised full datasets.</p>
 <div class="sourceCode" id="cb47"><pre class="downlit sourceCode r">
-<code class="sourceCode R"><span><span class="fu"><a href="../reference/sdSumry.html">sdSumry</a></span><span class="op">(</span><span class="va">deep</span>, <span class="va">xyCell</span>, <span class="st">'genus'</span>, <span class="va">prj</span><span class="op">)</span> <span class="op">|&gt;</span> <span class="fu"><a href="https://rdrr.io/r/base/Round.html" class="external-link">round</a></span><span class="op">(</span>digits <span class="op">=</span> <span class="fl">2</span><span class="op">)</span></span></code></pre></div>
+<code class="sourceCode R"><span><span class="fu"><a href="../reference/sdSumry.html">sdSumry</a></span><span class="op">(</span><span class="va">deep</span>, <span class="va">xyCell</span>, <span class="st">'genus'</span>, <span class="va">prj</span><span class="op">)</span> <span class="op">|&gt;</span> <span class="fu"><a href="https://rspatial.github.io/terra/reference/math-generics.html" class="external-link">round</a></span><span class="op">(</span>digits <span class="op">=</span> <span class="fl">2</span><span class="op">)</span></span></code></pre></div>
 <pre><code><span><span class="co">#&gt;      nOcc nLoc centroidX centroidY latRange greatCircDist meanPairDist minSpanTree SCOR nTax</span></span>
 <span><span class="co">#&gt; [1,]  713  250  -3192759  -1735760   166.32      33567.84       8071.8    130946.3    3   94</span></span></code></pre>
 <div class="sourceCode" id="cb49"><pre class="downlit sourceCode r">
-<code class="sourceCode R"><span><span class="fu"><a href="../reference/sdSumry.html">sdSumry</a></span><span class="op">(</span><span class="va">prox</span>, <span class="va">xyCell</span>, <span class="st">'genus'</span>, <span class="va">prj</span><span class="op">)</span> <span class="op">|&gt;</span> <span class="fu"><a href="https://rdrr.io/r/base/Round.html" class="external-link">round</a></span><span class="op">(</span>digits <span class="op">=</span> <span class="fl">2</span><span class="op">)</span></span></code></pre></div>
+<code class="sourceCode R"><span><span class="fu"><a href="../reference/sdSumry.html">sdSumry</a></span><span class="op">(</span><span class="va">prox</span>, <span class="va">xyCell</span>, <span class="st">'genus'</span>, <span class="va">prj</span><span class="op">)</span> <span class="op">|&gt;</span> <span class="fu"><a href="https://rspatial.github.io/terra/reference/math-generics.html" class="external-link">round</a></span><span class="op">(</span>digits <span class="op">=</span> <span class="fl">2</span><span class="op">)</span></span></code></pre></div>
 <pre><code><span><span class="co">#&gt;      nOcc nLoc centroidX centroidY latRange greatCircDist meanPairDist minSpanTree SCOR nTax</span></span>
 <span><span class="co">#&gt; [1,]  432  204  -3766508   -957619   166.32      33567.84      7845.98      127435 2.27   61</span></span></code></pre>
 <div class="sourceCode" id="cb51"><pre class="downlit sourceCode r">
-<code class="sourceCode R"><span><span class="fu"><a href="../reference/sdSumry.html">sdSumry</a></span><span class="op">(</span><span class="va">eury</span>, <span class="va">xyCell</span>, <span class="st">'genus'</span>, <span class="va">prj</span><span class="op">)</span> <span class="op">|&gt;</span> <span class="fu"><a href="https://rdrr.io/r/base/Round.html" class="external-link">round</a></span><span class="op">(</span>digits <span class="op">=</span> <span class="fl">2</span><span class="op">)</span></span></code></pre></div>
+<code class="sourceCode R"><span><span class="fu"><a href="../reference/sdSumry.html">sdSumry</a></span><span class="op">(</span><span class="va">eury</span>, <span class="va">xyCell</span>, <span class="st">'genus'</span>, <span class="va">prj</span><span class="op">)</span> <span class="op">|&gt;</span> <span class="fu"><a href="https://rspatial.github.io/terra/reference/math-generics.html" class="external-link">round</a></span><span class="op">(</span>digits <span class="op">=</span> <span class="fl">2</span><span class="op">)</span></span></code></pre></div>
 <pre><code><span><span class="co">#&gt;      nOcc nLoc centroidX centroidY latRange greatCircDist meanPairDist minSpanTree SCOR nTax</span></span>
 <span><span class="co">#&gt; [1,] 3462  404  -3134553  -1227392   166.32      33567.84      8321.72    168862.1 9.46  100</span></span></code></pre>
 <p>In this case the overall direction of results is the same (deep-water
@@ -680,11 +665,11 @@ groups.</p>
 <span>      <span class="fu"><a href="../reference/rangeSize.html">rangeSize</a></span><span class="op">(</span><span class="va">taxCoords</span>, <span class="va">crs</span><span class="op">)</span></span>
 <span>    <span class="op">}</span></span>
 <span>  <span class="op">}</span></span>
-<span>  <span class="va">taxa</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://rdrr.io/pkg/terra/man/sort.html" class="external-link">sort</a></span><span class="op">(</span><span class="va">taxa</span><span class="op">)</span></span>
+<span>  <span class="va">taxa</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://rspatial.github.io/terra/reference/sort.html" class="external-link">sort</a></span><span class="op">(</span><span class="va">taxa</span><span class="op">)</span></span>
 <span>  <span class="va">rngMat</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://rdrr.io/r/base/lapply.html" class="external-link">sapply</a></span><span class="op">(</span><span class="va">taxa</span>, <span class="va">taxRange</span><span class="op">)</span></span>
 <span>  <span class="fu"><a href="https://rdrr.io/r/base/colnames.html" class="external-link">rownames</a></span><span class="op">(</span><span class="va">rngMat</span><span class="op">)</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://rdrr.io/r/base/c.html" class="external-link">c</a></span><span class="op">(</span><span class="st">'occurrences'</span>, <span class="st">'centroidX'</span>, <span class="st">'centroidY'</span>, <span class="st">'latRange'</span>,</span>
 <span>                        <span class="st">'greatCircDist'</span>, <span class="st">'meanPairDist'</span>, <span class="st">'minSpanTree'</span><span class="op">)</span></span>
-<span>  <span class="va">rngDf</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://rdrr.io/pkg/terra/man/transpose.html" class="external-link">t</a></span><span class="op">(</span><span class="va">rngMat</span><span class="op">)</span> <span class="op">|&gt;</span> <span class="fu"><a href="https://rdrr.io/r/base/data.frame.html" class="external-link">data.frame</a></span><span class="op">(</span><span class="op">)</span></span>
+<span>  <span class="va">rngDf</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://rspatial.github.io/terra/reference/transpose.html" class="external-link">t</a></span><span class="op">(</span><span class="va">rngMat</span><span class="op">)</span> <span class="op">|&gt;</span> <span class="fu"><a href="https://rdrr.io/r/base/data.frame.html" class="external-link">data.frame</a></span><span class="op">(</span><span class="op">)</span></span>
 <span>  <span class="kw"><a href="https://rdrr.io/r/base/function.html" class="external-link">return</a></span><span class="op">(</span><span class="va">rngDf</span><span class="op">)</span></span>
 <span><span class="op">}</span></span>
 <span></span>
@@ -713,16 +698,16 @@ per-taxon range data for final analysis.</p>
 <span>    <span class="va">singl</span> <span class="op">&lt;-</span> <span class="va">aDf</span><span class="op">$</span><span class="va">occ</span> <span class="op">==</span> <span class="fl">1</span></span>
 <span>    <span class="va">aDf</span> <span class="op">&lt;-</span> <span class="va">aDf</span><span class="op">[</span> <span class="op">!</span><span class="va">singl</span>, <span class="op">]</span></span>
 <span>  <span class="op">}</span></span>
-<span>  <span class="fu"><a href="https://rdrr.io/r/base/colSums.html" class="external-link">colMeans</a></span><span class="op">(</span><span class="va">aDf</span>, na.rm <span class="op">=</span> <span class="cn">TRUE</span><span class="op">)</span></span>
+<span>  <span class="fu"><a href="https://rspatial.github.io/terra/reference/rowSums.html" class="external-link">colMeans</a></span><span class="op">(</span><span class="va">aDf</span>, na.rm <span class="op">=</span> <span class="cn">TRUE</span><span class="op">)</span></span>
 <span><span class="op">}</span></span>
 <span></span>
 <span><span class="co"># apply summary function over all taxa in subsamples of preferred enviro</span></span>
 <span><span class="va">rngAvgD</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://rdrr.io/r/base/lapply.html" class="external-link">sapply</a></span><span class="op">(</span><span class="va">taxaD</span>, <span class="va">taxRange</span>, rngL <span class="op">=</span> <span class="va">rngD</span><span class="op">)</span> <span class="op">|&gt;</span></span>
-<span>  <span class="fu"><a href="https://rdrr.io/pkg/terra/man/transpose.html" class="external-link">t</a></span><span class="op">(</span><span class="op">)</span> <span class="op">|&gt;</span> <span class="fu"><a href="https://rdrr.io/r/base/data.frame.html" class="external-link">data.frame</a></span><span class="op">(</span><span class="op">)</span></span>
+<span>  <span class="fu"><a href="https://rspatial.github.io/terra/reference/transpose.html" class="external-link">t</a></span><span class="op">(</span><span class="op">)</span> <span class="op">|&gt;</span> <span class="fu"><a href="https://rdrr.io/r/base/data.frame.html" class="external-link">data.frame</a></span><span class="op">(</span><span class="op">)</span></span>
 <span><span class="va">rngAvgP</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://rdrr.io/r/base/lapply.html" class="external-link">sapply</a></span><span class="op">(</span><span class="va">taxaP</span>, <span class="va">taxRange</span>, rngL <span class="op">=</span> <span class="va">rngP</span><span class="op">)</span> <span class="op">|&gt;</span></span>
-<span>  <span class="fu"><a href="https://rdrr.io/pkg/terra/man/transpose.html" class="external-link">t</a></span><span class="op">(</span><span class="op">)</span> <span class="op">|&gt;</span> <span class="fu"><a href="https://rdrr.io/r/base/data.frame.html" class="external-link">data.frame</a></span><span class="op">(</span><span class="op">)</span></span>
+<span>  <span class="fu"><a href="https://rspatial.github.io/terra/reference/transpose.html" class="external-link">t</a></span><span class="op">(</span><span class="op">)</span> <span class="op">|&gt;</span> <span class="fu"><a href="https://rdrr.io/r/base/data.frame.html" class="external-link">data.frame</a></span><span class="op">(</span><span class="op">)</span></span>
 <span><span class="va">rngAvgE</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://rdrr.io/r/base/lapply.html" class="external-link">sapply</a></span><span class="op">(</span><span class="va">taxaE</span>, <span class="va">taxRange</span>, rngL <span class="op">=</span> <span class="va">rngE</span><span class="op">)</span> <span class="op">|&gt;</span></span>
-<span>  <span class="fu"><a href="https://rdrr.io/pkg/terra/man/transpose.html" class="external-link">t</a></span><span class="op">(</span><span class="op">)</span> <span class="op">|&gt;</span> <span class="fu"><a href="https://rdrr.io/r/base/data.frame.html" class="external-link">data.frame</a></span><span class="op">(</span><span class="op">)</span></span></code></pre></div>
+<span>  <span class="fu"><a href="https://rspatial.github.io/terra/reference/transpose.html" class="external-link">t</a></span><span class="op">(</span><span class="op">)</span> <span class="op">|&gt;</span> <span class="fu"><a href="https://rdrr.io/r/base/data.frame.html" class="external-link">data.frame</a></span><span class="op">(</span><span class="op">)</span></span></code></pre></div>
 <p>There are cases where a taxon is observed only once in a given
 subsample, which is uninformative for any geographic range measure
 except raw occurrence counts. The custom argument
@@ -846,9 +831,9 @@ occurrence data, without subsampling.</p>
 <div class="sourceCode" id="cb72"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span><span class="co"># calculate geographic range size on alloccurrences (not subsampled)</span></span>
 <span><span class="va">unsamp</span> <span class="op">&lt;-</span> <span class="fu">subsampRange</span><span class="op">(</span><span class="va">taxa</span>, df <span class="op">=</span> <span class="va">occSilur</span>, taxCol <span class="op">=</span> <span class="st">'genus'</span>, coordCols <span class="op">=</span> <span class="va">xyCell</span>, crs <span class="op">=</span> <span class="va">prj</span><span class="op">)</span></span>
-<span><span class="va">unsampD</span> <span class="op">&lt;-</span> <span class="va">unsamp</span><span class="op">[</span><span class="fu"><a href="https://rdrr.io/r/base/colnames.html" class="external-link">rownames</a></span><span class="op">(</span><span class="va">unsamp</span><span class="op">)</span> <span class="op"><a href="https://rdrr.io/pkg/terra/man/match.html" class="external-link">%in%</a></span> <span class="va">taxaD</span>,<span class="op">]</span></span>
-<span><span class="va">unsampP</span> <span class="op">&lt;-</span> <span class="va">unsamp</span><span class="op">[</span><span class="fu"><a href="https://rdrr.io/r/base/colnames.html" class="external-link">rownames</a></span><span class="op">(</span><span class="va">unsamp</span><span class="op">)</span> <span class="op"><a href="https://rdrr.io/pkg/terra/man/match.html" class="external-link">%in%</a></span> <span class="va">taxaP</span>,<span class="op">]</span></span>
-<span><span class="va">unsampE</span> <span class="op">&lt;-</span> <span class="va">unsamp</span><span class="op">[</span><span class="fu"><a href="https://rdrr.io/r/base/colnames.html" class="external-link">rownames</a></span><span class="op">(</span><span class="va">unsamp</span><span class="op">)</span> <span class="op"><a href="https://rdrr.io/pkg/terra/man/match.html" class="external-link">%in%</a></span> <span class="va">taxaE</span>,<span class="op">]</span></span>
+<span><span class="va">unsampD</span> <span class="op">&lt;-</span> <span class="va">unsamp</span><span class="op">[</span><span class="fu"><a href="https://rdrr.io/r/base/colnames.html" class="external-link">rownames</a></span><span class="op">(</span><span class="va">unsamp</span><span class="op">)</span> <span class="op"><a href="https://rspatial.github.io/terra/reference/match.html" class="external-link">%in%</a></span> <span class="va">taxaD</span>,<span class="op">]</span></span>
+<span><span class="va">unsampP</span> <span class="op">&lt;-</span> <span class="va">unsamp</span><span class="op">[</span><span class="fu"><a href="https://rdrr.io/r/base/colnames.html" class="external-link">rownames</a></span><span class="op">(</span><span class="va">unsamp</span><span class="op">)</span> <span class="op"><a href="https://rspatial.github.io/terra/reference/match.html" class="external-link">%in%</a></span> <span class="va">taxaP</span>,<span class="op">]</span></span>
+<span><span class="va">unsampE</span> <span class="op">&lt;-</span> <span class="va">unsamp</span><span class="op">[</span><span class="fu"><a href="https://rdrr.io/r/base/colnames.html" class="external-link">rownames</a></span><span class="op">(</span><span class="va">unsamp</span><span class="op">)</span> <span class="op"><a href="https://rspatial.github.io/terra/reference/match.html" class="external-link">%in%</a></span> <span class="va">taxaE</span>,<span class="op">]</span></span>
 <span></span>
 <span><span class="fu"><a href="https://rdrr.io/r/stats/wilcox.test.html" class="external-link">wilcox.test</a></span><span class="op">(</span><span class="va">unsampD</span><span class="op">$</span><span class="va">occurrences</span>, <span class="va">unsampP</span><span class="op">$</span><span class="va">occurrences</span>, alternative<span class="op">=</span><span class="st">'g'</span><span class="op">)</span> <span class="co"># deep vs shallow</span></span></code></pre></div>
 <pre><code><span><span class="co">#&gt; </span></span>
@@ -936,7 +921,7 @@ biological interpretation.</p>
 <div class="section level2 unnumbered">
 <h2 class="unnumbered" id="references">References<a class="anchor" aria-label="anchor" href="#references"></a>
 </h2>
-<div id="refs" class="references csl-bib-body hanging-indent">
+<div id="refs" class="references csl-bib-body hanging-indent" entry-spacing="0">
 <div id="ref-Allmon2014" class="csl-entry">
 Allmon, Warren D, and Ronald E Martin. 2014. <span>“Seafood Through Time
 Revisited: The Phanerozoic Increase in Marine Trophic Resources and Its
@@ -1054,28 +1039,26 @@ the PaleoData Plotter Program.”</span> <a href="https://www.earthbyte.org/webd
 </div>
 </div>
 </div>
-  </main><aside class="col-md-3"><nav id="toc"><h2>On this page</h2>
+  </main><aside class="col-md-3"><nav id="toc" aria-label="Table of contents"><h2>On this page</h2>
     </nav></aside>
 </div>
 
 
 
     <footer><div class="pkgdown-footer-left">
-  <p></p>
-<p>Developed by Gawain Antell.</p>
+  <p>Developed by Gawain Antell.</p>
 </div>
 
 <div class="pkgdown-footer-right">
-  <p></p>
-<p>Site built with <a href="https://pkgdown.r-lib.org/" class="external-link">pkgdown</a> 2.0.7.</p>
+  <p>Site built with <a href="https://pkgdown.r-lib.org/" class="external-link">pkgdown</a> 2.1.1.</p>
 </div>
 
     </footer>
 </div>
 
-  
 
-  
+
+
 
   </body>
 </html>

@@ -1,63 +1,23 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url>
-    <loc>https://gawainantell.github.io/divvy/404.html</loc>
-  </url>
-  <url>
-    <loc>https://gawainantell.github.io/divvy/LICENSE.html</loc>
-  </url>
-  <url>
-    <loc>https://gawainantell.github.io/divvy/articles/habitat-rangesize-case-study.html</loc>
-  </url>
-  <url>
-    <loc>https://gawainantell.github.io/divvy/articles/index.html</loc>
-  </url>
-  <url>
-    <loc>https://gawainantell.github.io/divvy/articles/subsampling-concept-walkthrough.html</loc>
-  </url>
-  <url>
-    <loc>https://gawainantell.github.io/divvy/articles/subsampling-vignette.html</loc>
-  </url>
-  <url>
-    <loc>https://gawainantell.github.io/divvy/authors.html</loc>
-  </url>
-  <url>
-    <loc>https://gawainantell.github.io/divvy/index.html</loc>
-  </url>
-  <url>
-    <loc>https://gawainantell.github.io/divvy/news/index.html</loc>
-  </url>
-  <url>
-    <loc>https://gawainantell.github.io/divvy/reference/bandit.html</loc>
-  </url>
-  <url>
-    <loc>https://gawainantell.github.io/divvy/reference/bivalves.html</loc>
-  </url>
-  <url>
-    <loc>https://gawainantell.github.io/divvy/reference/classRast.html</loc>
-  </url>
-  <url>
-    <loc>https://gawainantell.github.io/divvy/reference/clustr.html</loc>
-  </url>
-  <url>
-    <loc>https://gawainantell.github.io/divvy/reference/collSilur.html</loc>
-  </url>
-  <url>
-    <loc>https://gawainantell.github.io/divvy/reference/cookies.html</loc>
-  </url>
-  <url>
-    <loc>https://gawainantell.github.io/divvy/reference/index.html</loc>
-  </url>
-  <url>
-    <loc>https://gawainantell.github.io/divvy/reference/occSilur.html</loc>
-  </url>
-  <url>
-    <loc>https://gawainantell.github.io/divvy/reference/rangeSize.html</loc>
-  </url>
-  <url>
-    <loc>https://gawainantell.github.io/divvy/reference/sdSumry.html</loc>
-  </url>
-  <url>
-    <loc>https://gawainantell.github.io/divvy/reference/uniqify.html</loc>
-  </url>
+<urlset xmlns = 'http://www.sitemaps.org/schemas/sitemap/0.9'>
+<url><loc>https://gawainantell.github.io/divvy/404.html</loc></url>
+<url><loc>https://gawainantell.github.io/divvy/LICENSE.html</loc></url>
+<url><loc>https://gawainantell.github.io/divvy/articles/habitat-rangesize-case-study.html</loc></url>
+<url><loc>https://gawainantell.github.io/divvy/articles/index.html</loc></url>
+<url><loc>https://gawainantell.github.io/divvy/articles/subsampling-concept-walkthrough.html</loc></url>
+<url><loc>https://gawainantell.github.io/divvy/articles/subsampling-vignette.html</loc></url>
+<url><loc>https://gawainantell.github.io/divvy/authors.html</loc></url>
+<url><loc>https://gawainantell.github.io/divvy/index.html</loc></url>
+<url><loc>https://gawainantell.github.io/divvy/news/index.html</loc></url>
+<url><loc>https://gawainantell.github.io/divvy/reference/bandit.html</loc></url>
+<url><loc>https://gawainantell.github.io/divvy/reference/bivalves.html</loc></url>
+<url><loc>https://gawainantell.github.io/divvy/reference/classRast.html</loc></url>
+<url><loc>https://gawainantell.github.io/divvy/reference/clustr.html</loc></url>
+<url><loc>https://gawainantell.github.io/divvy/reference/collSilur.html</loc></url>
+<url><loc>https://gawainantell.github.io/divvy/reference/cookies.html</loc></url>
+<url><loc>https://gawainantell.github.io/divvy/reference/index.html</loc></url>
+<url><loc>https://gawainantell.github.io/divvy/reference/occSilur.html</loc></url>
+<url><loc>https://gawainantell.github.io/divvy/reference/rangeSize.html</loc></url>
+<url><loc>https://gawainantell.github.io/divvy/reference/sdSumry.html</loc></url>
+<url><loc>https://gawainantell.github.io/divvy/reference/uniqify.html</loc></url>
 </urlset>
+
