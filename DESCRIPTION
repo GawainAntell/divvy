@@ -4,21 +4,21 @@ Version: 1.0.0.9000
 Authors@R: 
     person("Gawain", "Antell", , "gawainantell@gmail.com", role = c("aut", "cre", "cph"),
            comment = c(ORCID = "0000-0002-1948-6624"))
-Depends: R (>= 4.0)
+Depends: R (>= 4.1)
 Description: Divide taxonomic occurrence data into geographic regions of fair
     comparison, with three customisable methods to standardise area and extent.
     Calculate common biodiversity and range-size metrics on subsampled data.
     Background theory and practical considerations for the methods are described
-    in Antell and others (2023) <doi:10.31223/X5997Z>.
+    in Antell and others (2024) <doi:10.1017/pab.2023.36>.
 License: GPL (>= 3)
 Encoding: UTF-8
 Imports: 
-	iNEXT (>= 3.0.0), 
-	Rdpack, 
-	sf, 
-	terra,
-	units, 
-	vegan
+    iNEXT (>= 3.0.0),
+    Rdpack,
+    sf,
+    terra,
+    units (>= 0.8-6),
+    vegan
 RdMacros: Rdpack
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.3.2
