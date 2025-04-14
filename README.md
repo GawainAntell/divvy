@@ -10,6 +10,8 @@ status](https://www.r-pkg.org/badges/version/divvy)](https://CRAN.R-project.org/
 [![R-CMD-check](https://github.com/GawainAntell/divvy/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/GawainAntell/divvy/actions/workflows/R-CMD-check.yaml)
 [![test-coverage](https://github.com/GawainAntell/divvy/actions/workflows/test-coverage.yaml/badge.svg)](https://github.com/GawainAntell/divvy/actions/workflows/test-coverage.yaml)
 [![codecov](https://codecov.io/gh/GawainAntell/divvy/graph/badge.svg?token=SEJWHTUBB1)](https://app.codecov.io/gh/GawainAntell/divvy)
+[![Codecov test
+coverage](https://codecov.io/gh/GawainAntell/divvy/graph/badge.svg)](https://app.codecov.io/gh/GawainAntell/divvy)
 <!-- badges: end -->
 
 <img src='man/figures/divvy_hex_sticker.png' width='300px' align='right'>
@@ -20,10 +22,10 @@ Divvy up diversity into geographic regions of fair comparison!
 
 An R package offering spatial subsampling functions for biogeography and
 biodiversity studies, whether analysing fossil or modern taxon
-occurrence data, as described by Antell et al. (2023), ‘Spatial
-standardization of taxon occurrence data—a call to action’. A preprint
-of the *Paleobiology* paper is available at [Earth
-ArXiv](https://doi.org/10.31223/X5997Z).
+occurrence data, as described by: Antell, G.T., Benson, R.B., and Saupe,
+E.E. (2024). Spatial standardization of taxon occurrence data—a call to
+action. *Paleobiology*, 50(2), 177-193.
+<https://doi.org/10.1017/pab.2023.36>.
 
 Three types of subsampling are available to to standardise the number
 and maximum spread (dispersion) of sites within a region of specified
