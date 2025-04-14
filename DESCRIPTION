@@ -1,6 +1,6 @@
 Package: divvy
 Title: Spatial Subsampling of Biodiversity Occurrence Data
-Version: 1.0.1
+Version: 1.0.1.9000
 Authors@R: 
     person("Gawain", "Antell", , "gawainantell@gmail.com", role = c("aut", "cre", "cph"),
            comment = c(ORCID = "0000-0002-1948-6624"))
