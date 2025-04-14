@@ -1,4 +1,9 @@
-# divvy (development version)
+# divvy 1.0.1
+
+## Bug fixes
+
+* Advanced the minimum version numbers required for `R` and `units` 
+* Fixed specification of `units` in objects for compatibility with `cbind`
 
 # divvy 1.0.0
 

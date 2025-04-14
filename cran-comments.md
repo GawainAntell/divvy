@@ -1,17 +1,12 @@
 ## Resubmission
 
-This is a resubmission. In this version I have:
-
-* Removed extra white spaces in the DESCRIPTION text.
+This is a submission of a new version, which fixes issues identified by CRAN checks.
+The deadline to fix the issues is 2025-04-14.
 
 ## R CMD check results
 
-0 errors | 0 warnings | 1 note
+0 errors | 0 warnings | 0 notes
 
-* This is a new release.
+## revdepcheck results
 
-* The following words are flagged as possibly misspelled in the DESCRIPTION:
-  Antell (12:8), Subsampling (2:16), subsampled (10:61), customisable (9:28).
-  These words are correct as-is, as they are my name, proper statistical terms,
-  and standard British English spellings, respectively.
-  
+This package has 0 dependencies.
