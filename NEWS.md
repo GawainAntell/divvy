@@ -1,5 +1,9 @@
 # divvy (development version)
 
+## Improvements
+
+* Add citation file
+
 # divvy 1.0.1
 
 ## Bug fixes

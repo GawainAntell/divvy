@@ -1,0 +1,19 @@
+bibentry(
+  bibtype  = 'Misc',
+  title    = 'divvy: Spatial Subsampling of Biodiversity Occurrence Data',
+  author   = 'Gawain T Antell',
+  year     = '2025',
+  note     = 'R package version 1.0.1',
+  url      = 'https://CRAN.R-project.org/package=divvy',
+  doi      = '10.32614/CRAN.package.divvy'
+)
+
+bibentry(
+  bibtype = 'Article',
+  author  = 'Gawain T Antell, Roger B J Benson, Erin E Saupe',
+  title   = 'Spatial standardization of taxon occurrence data—a call to action',
+	year    = '2024',
+	journal = 'Paleobiology',
+	type    = 'Journal Article',
+	doi     = '10.1017/pab.2023.36'
+)
